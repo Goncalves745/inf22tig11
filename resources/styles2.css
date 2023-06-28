@@ -1,4 +1,4 @@
-a,h1,p,h2{
+a,h1,p,h2,span{
     font-family: 'Roboto', sans-serif;
 }
    
@@ -68,7 +68,11 @@ a,h1,p,h2{
 position: relative;
 text-align: center;
 font-size: large;
+width: 600px;
+left: 550px;
+
     }
+
 .sobrenos p {
     font-size:larger;
 }
@@ -92,5 +96,33 @@ font-size: large;
     left: 0;
     margin: 0;
   }
+
+  table {
+    margin-top: 150px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  .info-colaborador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  .info-colaborador img {
+    max-width: 130px;
+    height: auto;
+    border-radius: 50%;
     
+  }
+  .info-colaborador span {
+    font-weight: bold;
+  }
     
