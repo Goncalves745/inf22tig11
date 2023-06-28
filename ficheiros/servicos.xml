@@ -1,1 +1,22 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<servicos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="servicos.xsd">
+  <servico>
+    <tipo_servico>Corte de Pelo</tipo_servico>
+    <descricao_servico>Corte conforme a preferência do cliente.</descricao_servico>
+    <descricao_servico2>Remoção de pelo em excesso.</descricao_servico2>
+    <descricao_servico3>Desembaraço e escovação.</descricao_servico3>
+  </servico>
+  <servico>
+    <tipo_servico>Lavagem e Hidratação</tipo_servico>
+    <descricao_servico>Banhos suaves e relaxantes.</descricao_servico>
+    <descricao_servico2>Produtos de alta qualidade para peles sensíveis.</descricao_servico2>
+    <descricao_servico3>Hidratação profunda para pelos macios e brilhantes.</descricao_servico3>
+  </servico>
+  <servico>
+    <tipo_servico>Cuidados Especiais</tipo_servico>
+    <descricao_servico>Manutenção das unhas</descricao_servico>
+    <descricao_servico2>Tratamentos para pele seca ou sensível.</descricao_servico2>
+    <descricao_servico3>Remoção de nós.</descricao_servico3>
+  </servico>
+</servicos>
